@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -10,19 +10,23 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black w-full flex items-center font-apercu justify-between h-24 px-12 text-white">
-      <div className="ml-4 font-bold text-3xl flex justify-center items-center">
-        <img src="/alephinnov-logo.png" alt="logo" className="w-16 my-3" />
-        <span className="tracking-tight">aleph</span>
+    <nav className="bg-black w-full flex items-center font-apercu justify-center lg:justify-between h-24 px-12 text-white">
+      <div className="font-bold text-3xl flex justify-center items-center">
+        <img src="/alephinnov-logo.png" alt="logo" className="w-24 mt-12 lg:mt-0 lg:w-16 my-3" />
+        <span className="hidden lg:block lg:text-3xl">aleph</span>
       </div>
-      <div className="mr-6 text-xl font-normal flex gap-12">
-        <div className="group">
+      <div className="hidden lg:flex mr-6 mt-[5%] text-xl font-normal gap-12">
+        <div className="group grid grid-rows-2">
           <button className="mr-2">about</button>
-          <span className="bg-lime-500 bg-opacity-10 text-lime-400 text-sm p-3 absolute text-center top-[8%] right-[12.3%] rounded-xl opacity-0 transition-all ease-out delay-200 group-hover:opacity-100">under <br/> development</span>
+          <span className="bg-lime-500 bg-opacity-10 text-lime-400 text-sm p-3 text-center rounded-xl opacity-0 transition-all ease-out delay-200 group-hover:opacity-100">
+            under <br /> development
+          </span>
         </div>
-        <div className="group">
+        <div className="group grid grid-rows-2">
           <button className="mr-2">contact</button>
-          <span className="bg-lime-500 bg-opacity-10 text-lime-400 text-sm p-3 absolute text-center top-[8%] right-[4.2%] rounded-xl opacity-0 transition-all ease-out delay-200 group-hover:opacity-100">under <br/> development</span>
+          <span className="bg-lime-500 bg-opacity-10 text-lime-400 text-sm p-3 text-center rounded-xl opacity-0 transition-all ease-out delay-200 group-hover:opacity-100">
+            under <br /> development
+          </span>
         </div>
       </div>
       {/* <div className="mr-4">
