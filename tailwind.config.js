@@ -7,11 +7,39 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        ptSerif: ["PT Serif", "sans-serif"],
+        apercu: ["var(--apercu)", "sans-serif"],
       },
+      keyframes: {
+        enter: {
+          '0%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(0%)' },
+        },
+        exit: {
+          '0%': { transform: 'translateY(0%)' },
+          '100%': { transform: 'translateY(100%)' },
+        },
+      },
+      animation: {
+        blob: "blob 7s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(60px, -30px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-30px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "translate(0px, 0px) scale(1)",
+          }
+        }
+      }
     },
   },
   plugins: [],
