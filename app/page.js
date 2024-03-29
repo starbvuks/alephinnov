@@ -20,7 +20,7 @@ export default function Home() {
             your next big <span className="text-lime-600">idea</span>
           </span>
         </div>
-        <div className="w-[60%] lg:w-[30%] z-20 self-center flex justify-center items-center p-2 lg:p-6 mt-[80%] lg:mt-20 bg-slate-600 bg-opacity-30 border-2 border-lime-800 border-opacity-25 rounded-xl">
+        <div className="w-[60%] lg:w-[30%] z-20 self-center flex justify-center items-center p-2 lg:p-6 mt-[83%] lg:mt-20 bg-slate-600 bg-opacity-30 border-2 border-lime-800 border-opacity-25 rounded-xl">
           <span className="text-gray-400 z-40 font-light italic text-lg lg:text-2xl">
             more info coming soon ❤️
           </span>
@@ -44,7 +44,7 @@ export default function Home() {
       <img
         src="/sphere.png"
         alt="locker"
-        className="absolute w-[80%] z-20 m-auto left-0 right-0 bottom-28 lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
+        className="absolute w-[85%] z-20 m-auto left-0 right-0 bottom-28 lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
       />
     </main>
   );
