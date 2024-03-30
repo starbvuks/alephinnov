@@ -2,7 +2,7 @@ import React from "react";
 
 const WhatWeDo = () => {
   return (
-    <div className="text-2xl mt-16 xl:mt-28 py-16 rounded-t-[2.2em] bg-[#0F110E] text-center font-apercu flex flex-col items-center justify-center">
+    <div className="text-2xl mt-16 xl:mt-28 pt-16 pb-32 rounded-t-[2.2em] bg-[#0F110E] text-center font-apercu flex flex-col items-center justify-center">
       {/* <div className="hidden lg:block"> */}
         <span className="z-20 text-5xl xl:text-6xl tracking-tight">What We Do</span>
         <br />

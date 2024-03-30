@@ -3,6 +3,7 @@ import Ticker from "@/components/Ticker";
 
 import Navbar from "@/components/Navbar";
 import WhatWeDo from "@/components/WhatWeDo";
+import Clients from "@/components/Clients";
 import Academy from "@/components/Academy";
 import Footer from "@/components/Footer";
 
@@ -52,6 +53,7 @@ export default function Home() {
         className="hidden lg:block lg:absolute lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
       />
       <WhatWeDo />
+      <Clients />
       <Academy />
       <Footer />
     </main>
