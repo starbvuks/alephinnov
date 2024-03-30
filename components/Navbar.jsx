@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <nav className="bg-black w-full flex items-center font-apercu justify-center lg:justify-between h-24 px-12 text-white">
       <div className="font-bold text-3xl flex justify-center items-center">
-        <img src="/alephinnov-logo.png" alt="logo" className="w-24 mt-12 lg:mt-0 lg:w-16 my-3" />
-        <span className="hidden lg:block lg:text-3xl">aleph</span>
+        <img src="/alephinnov-logo.png" alt="logo" className="w-24 mt-12 lg:mt-0 lg:w-[2.1em] object-cover" />
+        <span className="hidden lg:block lg:text-[1.3em] font-medium tracking-tighter">aleph</span>
       </div>
       <div className="hidden lg:flex mr-6 mt-[5%] text-xl font-normal gap-12">
         <div className="group grid grid-rows-2">

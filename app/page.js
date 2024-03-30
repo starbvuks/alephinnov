@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Ticker from "@/components/Ticker";
+import WhatWeDo from "@/components/WhatWeDo";
 
 export default function Home() {
   return (
@@ -21,8 +22,8 @@ export default function Home() {
           </span>
         </div>
         <div className="w-[60%] lg:w-[30%] z-20 self-center flex justify-center items-center p-2 lg:p-6 mt-[83%] lg:mt-20 bg-slate-600 bg-opacity-30 border-2 border-lime-800 border-opacity-25 rounded-xl">
-          <span className="text-gray-400 z-40 font-light italic text-lg lg:text-2xl">
-            more info coming soon ❤️
+          <span className="text-gray-400 z-40 font-light italic text-base lg:text-2xl">
+            what your business deserves ❤️
           </span>
         </div>
         {/* <div className="w-[45%] grid grid-rows-4 p-6 mt-7 bg-slate-600 bg-opacity-30 border-2 border-slate-800 rounded-xl">
@@ -46,6 +47,7 @@ export default function Home() {
         alt="locker"
         className="absolute w-[85%] z-20 m-auto left-0 right-0 bottom-28 lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
       />
+      <WhatWeDo />
     </main>
   );
 }
