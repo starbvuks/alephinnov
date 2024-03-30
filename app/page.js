@@ -21,7 +21,7 @@ export default function Home() {
           <span className="">Accelerate</span>
         </div>
         <div className="lg:-mt-3">
-          <span className="text-gray-200 text-2xl font-light xl:font-bold z-40 lg:text-5xl xl:text-6xl">
+          <span className="text-gray-200 font-apercu text-2xl font-light xl:font-bold z-40 lg:text-5xl xl:text-6xl">
             your next big <span className="text-lime-600">idea</span>
           </span>
         </div>
