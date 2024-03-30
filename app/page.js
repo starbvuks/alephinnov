@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Ticker from "@/components/Ticker";
 
 import Navbar from "@/components/Navbar";
-import Ticker from "@/components/Ticker";
 import WhatWeDo from "@/components/WhatWeDo";
+import Academy from "@/components/Academy";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       <div class="z-10 fixed rounded-full animate-blob mix-blend-hard-light filter blur-[100px] opacity-20 -bottom-32 lg:-bottom-48 left-1/2 w-[50%] h-72 bg-lime-400 overflow-hidden" />
       <div class="z-10 fixed rounded-full animate-blob mix-blend-hard-light filter blur-[100px] opacity-20 -bottom-32 lg:-bottom-48 left-0 w-[50%] h-72 bg-teal-400 overflow-hidden" />
       <Navbar />
-      <div className="flex flex-col text-center text-6xl mt-6 lg:text-left lg:text-9xl lg:mt-24 lg:ml-16 font-bold">
+      <div className="flex flex-col text-center text-6xl mt-6 lg:text-left lg:text-8xl xl:text-9xl lg:mt-24 lg:ml-16 font-bold">
         <div className="grid grid-rows-2 mt-10">
           <span className="z-20">
             Build <span className="font-ptSerif italic text-gray-400">&</span>
@@ -19,12 +20,13 @@ export default function Home() {
           <span className="">Accelerate</span>
         </div>
         <div className="lg:-mt-3">
-          <span className="text-gray-200 text-2xl font-light lg:font-bold z-40 lg:text-6xl">
+          <span className="text-gray-200 text-2xl font-light xl:font-bold z-40 lg:text-5xl xl:text-6xl">
             your next big <span className="text-lime-600">idea</span>
           </span>
         </div>
-        <div className="w-[65%] lg:w-[30%] z-20 self-center flex justify-center items-center p-2 lg:p-6 mt-[83%] lg:mt-20 bg-slate-600 bg-opacity-30 border-2 border-lime-800 border-opacity-25 rounded-xl">
-          <span className="text-gray-400 z-40 font-light italic text-base lg:text-2xl">
+        <img src="/sphere.png" alt="locker" className="self-center pt-2 w-[6.4em] lg:hidden" />
+        <div className="w-[65%] lg:w-[30%] z-20 self-center flex justify-center items-center p-2 lg:p-6 lg:mt-24 bg-slate-600 bg-opacity-30 border-2 border-lime-800 border-opacity-25 rounded-xl">
+          <span className="text-gray-400 z-40 text-center font-light italic text-base xl:text-xl">
             what your business deserves ❤️
           </span>
         </div>
@@ -47,9 +49,10 @@ export default function Home() {
       <img
         src="/sphere.png"
         alt="locker"
-        className="absolute w-[85%] z-20 m-auto left-0 right-0 bottom-28 lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
+        className="hidden lg:block lg:absolute lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
       />
       <WhatWeDo />
+      <Academy />
       <Footer />
     </main>
   );

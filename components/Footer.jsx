@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full rounded-xl h-40 py-7 pl-12 pr-9 bg-black text-white grid grid-cols-2 justify-center items-center">
+    <div className="w-full z-20 h-40 xl:h-32 py-7 xl:py-4 pl-12 pr-9 bg-black text-white grid grid-cols-2 xl:grid-cols-3 justify-center lg:justify-center items-center">
       <div className="flex justify-center flex-col">
         <img
           src="/alephinnov-logo.png"
@@ -13,7 +13,11 @@ const Footer = () => {
           Aleph Innovation
         </span>
       </div>
-      <div className="flex flex-col justify-end text-xs ml-6 text-left font-apercu">
+      <div className="hidden lg:block lg:text-center lg:text-3xl">
+     <span>🚧 🚧 🚧</span><br />
+     <span className="text-sm font-light">site still under construction</span>
+      </div>
+      <div className="flex flex-col justify-end text-xs ml-6 text-left xl:text-right font-apercu">
         <span className="text-sm font-light tracking-[0.16em] mb-4">CONTACT</span>
         {/* <div className="w-[60%] bg-white my-2 rounded-full opacity-20 h-0.5" /> */}
         <span className="mb-1">+91 95335 86416</span>
