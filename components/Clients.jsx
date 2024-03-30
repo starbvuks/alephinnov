@@ -6,7 +6,10 @@ const Clients = () => {
   return (
     <div className="text-2xl -mt-7 pt-20 pb-32 rounded-t-[2.2em] bg-gradient-to-b from-lime-700 text-center font-bold font-apercu flex flex-col items-center justify-center gap-3">
       <span className="z-20 text-5xl xl:text-6xl tracking-tight">
-        Our Clientele
+        Our Clients
+      </span>
+      <span className="z-20 text-lime-500 font-light text-base xl:text-2xl tracking-tight">
+        we&apos;d love to see your logo here next!
       </span>
       <div className="grid grid-cols-3 lg:grid-cols-4 justify-center items-center gap-2 lg:gap-4 px-10 lg:px-6 mt-10 lg:mt-20 lg:w-[50%] lg:justify-center lg:items-center">
         <a target="_blank" href="https://godigitalnow.co/" rel="noopener noreferrer">
