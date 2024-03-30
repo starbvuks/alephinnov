@@ -25,7 +25,7 @@ export default function Home() {
             your next big <span className="text-lime-600">idea</span>
           </span>
         </div>
-        <img src="/sphere.png" alt="locker" className="self-center pt-2 w-[6.4em] lg:hidden" />
+        <img src="/sphere.png" alt="locker" className="self-center pt-0.5 w-[6.4em] lg:hidden" />
         <div className="w-[65%] lg:w-[30%] z-20 self-center flex justify-center items-center p-2 lg:p-6 lg:mt-24 bg-slate-600 bg-opacity-30 border-2 border-lime-800 border-opacity-25 rounded-xl">
           <span className="text-gray-400 z-40 text-center font-light italic text-base xl:text-xl">
             what your business deserves ❤️
