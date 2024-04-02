@@ -2,13 +2,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-const Navbar = () => {
+const EduNavbar = () => {
   const [toggleState, setToggleState] = useState("2d");
-
-  const handleToggle = () => {
-    const newToggleState = toggleState === "2d" ? "3d" : "2d";
-    setToggleState(newToggleState);
-  };
 
   return (
     <nav className="bg-black w-full flex items-center font-apercu justify-center lg:justify-between h-24 px-12 text-white">
@@ -20,7 +15,7 @@ const Navbar = () => {
             className="w-24 mt-12 lg:mt-0 lg:w-[2.1em] object-cover"
           />
           <span className="hidden lg:block lg:text-[1.3em] font-medium tracking-tighter">
-            aleph
+            aleph <span className="text-lime-500 text-3xl">academy</span>
           </span>
         </Link>
       </div>
@@ -57,4 +52,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default EduNavbar;

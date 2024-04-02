@@ -54,7 +54,7 @@ export default function Home() {
       />
       <WhatWeDo />
       <Clients />
-      {/* <Academy /> */}
+      <Academy />
       <Footer />
     </main>
   );
