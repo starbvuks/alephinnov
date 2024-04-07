@@ -21,7 +21,7 @@ const Footer = () => {
         <span className="text-sm font-light tracking-[0.16em] mb-4">CONTACT</span>
         {/* <div className="w-[60%] bg-white my-2 rounded-full opacity-20 h-0.5" /> */}
         <span className="mb-1">+91 95335 86416</span>
-        <span>sarvag@startupgrind.com</span>
+        <span>sarvagk@gmail.com</span>
         {/* <hr className="mt-3 opacity-50"></hr> */}
         {/* <div>
           <span>find us on</span>

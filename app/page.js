@@ -9,6 +9,7 @@ import Slider from "@/components/Slider";
 import Clients from "@/components/Clients";
 import Academy from "@/components/Academy";
 import Footer from "@/components/Footer";
+import FinalBlock from "@/components/FinalBlock";
 
 export default function Home() {
 
@@ -64,6 +65,7 @@ export default function Home() {
       <Slider />
       <Clients />
       {/* <Academy /> */}
+      <FinalBlock />
       <Footer />
     </main>
   );
