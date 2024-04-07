@@ -13,12 +13,12 @@ module.exports = {
       },
       keyframes: {
         enter: {
-          '0%': { transform: 'translateY(-100%)' },
-          '100%': { transform: 'translateY(0%)' },
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(0%)" },
         },
         exit: {
-          '0%': { transform: 'translateY(0%)' },
-          '100%': { transform: 'translateY(100%)' },
+          "0%": { transform: "translateY(0%)" },
+          "100%": { transform: "translateY(100%)" },
         },
       },
       animation: {
@@ -37,9 +37,16 @@ module.exports = {
           },
           "100%": {
             transform: "translate(0px, 0px) scale(1)",
-          }
-        }
-      }
+          },
+        },
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        "infinite-scroll": "infinite-scroll 20s linear infinite",
+      },
     },
   },
   plugins: [],

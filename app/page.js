@@ -1,15 +1,19 @@
+"use client"
 import Image from "next/image";
+import { useEffect } from "react";
 import Ticker from "@/components/Ticker";
 
 import Navbar from "@/components/Navbar";
 import WhatWeDo from "@/components/WhatWeDo";
+import Slider from "@/components/Slider";
 import Clients from "@/components/Clients";
 import Academy from "@/components/Academy";
 import Footer from "@/components/Footer";
 
 export default function Home() {
+
   return (
-    <main className="flex bg-black flex-col lg:justify-between overflow-hidden">
+    <main className="flex bg-black text-white flex-col lg:justify-between overflow-hidden">
       <div class="z-10 fixed rounded-full animate-blob mix-blend-hard-light filter blur-[100px] opacity-20 -bottom-32 lg:-bottom-48 left-1/2 w-[50%] h-72 bg-lime-400 overflow-hidden" />
       <div class="z-10 fixed rounded-full animate-blob mix-blend-hard-light filter blur-[100px] opacity-20 -bottom-32 lg:-bottom-48 left-0 w-[50%] h-72 bg-teal-400 overflow-hidden" />
       <Navbar />
@@ -25,7 +29,11 @@ export default function Home() {
             your next big <span className="text-lime-600">idea</span>
           </span>
         </div>
-        <img src="/sphere.png" alt="locker" className="self-center pt-0.5 w-[6.4em] lg:hidden" />
+        <img
+          src="/sphere.png"
+          alt="locker"
+          className="self-center pt-0.5 w-[6.4em] lg:hidden"
+        />
         <div className="w-[65%] lg:w-[30%] z-20 self-center flex justify-center items-center p-2 lg:p-6 lg:mt-24 bg-slate-600 bg-opacity-30 border-2 border-lime-800 border-opacity-25 rounded-xl">
           <span className="text-gray-400 z-40 text-center font-light italic text-base xl:text-xl">
             what your business deserves ❤️
@@ -40,10 +48,10 @@ export default function Home() {
         {/* <div className="flex flex-col mt-14">
           <span className="z-20 text-6xl text-gray-400 tracking-tightest italic">Your</span>
           <div className="grid grid-rows-4 font-medium">
-            <span className="text-6xl">Platform</span>
-            <span className="text-6xl">Business</span>
-            <span className="text-6xl">Idea</span>
-            <span className="text-6xl">Project</span>
+          <span className="text-6xl">Platform</span>
+          <span className="text-6xl">Business</span>
+          <span className="text-6xl">Idea</span>
+          <span className="text-6xl">Project</span>
           </div>
         </div> */}
       </div>
@@ -53,8 +61,9 @@ export default function Home() {
         className="hidden lg:block lg:absolute lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
       />
       <WhatWeDo />
+      <Slider />
       <Clients />
-      <Academy />
+      {/* <Academy /> */}
       <Footer />
     </main>
   );

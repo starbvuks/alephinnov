@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full z-20 h-40 xl:h-32 py-7 xl:py-4 pl-12 pr-9 bg-black text-white grid grid-cols-2 xl:grid-cols-3 justify-center lg:justify-center items-center">
+    <div className="w-full z-20 h-40 xl:h-32 mt-16 py-7 xl:py-4 pl-12 pr-9 bg-black text-white grid grid-cols-2 xl:grid-cols-3 justify-center lg:justify-center items-center">
       <div className="flex justify-center flex-col">
         <img
           src="/alephinnov-logo.png"
