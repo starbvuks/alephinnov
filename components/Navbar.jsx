@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="hidden lg:flex mr-6 mt-[5%] text-xl font-normal gap-12">
         <div className="group grid grid-rows-2">
           <button className="mr-2">about</button>
-          <span className="bg-lime-500 bg-opacity-10 text-lime-400 text-sm p-3 text-center rounded-xl opacity-0 transition-all ease-out delay-200 group-hover:opacity-100">
+          <span className="bg-lime-500 bg-opacity-10 text-lime-400 text-sm p-3 xl:p-24 text-center rounded-xl opacity-0 transition-all ease-out delay-200 group-hover:opacity-100">
             under <br /> development
           </span>
         </div>
