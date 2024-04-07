@@ -119,7 +119,7 @@ const Slider = () => {
         <span className="text-2xl font-light font-ptSerif italic">basically</span>
         {/* <span className="text-lg opacity-25">(for the non-techies)</span>  */}
         <span className="text-2xl font-semibold text-lime-400">
-          don't worry, we know what we're doing
+          don&apos;t worry, we know what we&apos;re doing 
         </span>
       </div>
     </div>

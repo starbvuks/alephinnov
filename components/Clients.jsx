@@ -30,14 +30,14 @@ const Clients = () => {
           <img
             src="/projoy.png"
             alt="projoy"
-            className="w-[80%] lg:mx-auto lg:w-[50%] ml-2 -mt-2 object-contain p-1 rounded-xl hover:scale-110 hover:opacity-100 opacity-90 lg:opacity-40 transition delay-75"
+            className="w-[80%] lg:mx-auto lg:w-[50%] ml-2 object-contain p-1 rounded-xl hover:scale-110 hover:opacity-100 opacity-90 lg:opacity-40 transition delay-75"
           />
         {/* </Link> */}
         {/* <Link href="https://www.linkedin.com/company/90545013"> */}
           <img
             src="/tm.png"
             alt="tm"
-            className="w-[70%] lg:mx-auto lg:w-[50%] mt-4 lg:-mt-2 object-contain p-2 rounded-xl hover:scale-110 hover:opacity-100 opacity-90 lg:opacity-40 transition delay-75"
+            className="w-[70%] lg:mx-auto lg:w-[50%] lg:-mt-2 object-contain p-1 rounded-xl hover:scale-110 hover:opacity-100 opacity-90 lg:opacity-40 transition delay-75"
           />
         {/* </Link> */}
       </div>
