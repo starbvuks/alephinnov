@@ -21,8 +21,8 @@ const WhatWeDo = () => {
         demands attention
       </span>
       {/* </div> */}
-      <div className="px-14 xl:my-12 xl:w-full xl:px-32 xl:grid xl:grid-cols-4 xl:justify-center xl:gap-12">
-        <div className="mt-12 min-h-[50%] rounded-2xl p-8 flex flex-col justify-between items-center bg-lime-600 bg-opacity-15 border-2 border-lime-800 border-opacity-25">
+      <div className="select-none px-14 xl:my-12 xl:w-full xl:px-32 xl:grid xl:grid-cols-4 xl:justify-center xl:gap-12">
+        <div className="mt-6 min-h-[50%] rounded-2xl p-8 flex flex-col justify-between items-center bg-lime-600 bg-opacity-15 border-2 border-lime-800 border-opacity-25">
           <span className="z-20 tracking-tight">UI/UX Designing</span>
           <img src="/ui-ux.png" alt="ui" className="w-[65%] xl:w-[80%]" />
         </div>

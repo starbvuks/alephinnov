@@ -11,7 +11,7 @@ const Clients = () => {
       <span className="z-20 text-lime-500 font-light text-base xl:text-2xl tracking-tight">
         we&apos;d love to see your logo here next!
       </span>
-      <div className="grid grid-cols-3 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-4 px-10 lg:px-6 mt-10 lg:mt-20 lg:w-[50%] lg:justify-center lg:items-center">
+      <div className="select-none grid grid-cols-3 lg:grid-cols-3 justify-center items-center gap-2 lg:gap-4 px-10 lg:px-6 mt-10 lg:mt-20 lg:w-[50%] lg:justify-center lg:items-center">
         {/* <a target="_blank" href="https://godigitalnow.co/" rel="noopener noreferrer"> */}
           <img
             src="/gdn-logo.png"

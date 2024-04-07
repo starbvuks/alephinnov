@@ -16,7 +16,7 @@ const Slider = () => {
         ul.insertAdjacentHTML('afterend', ul.outerHTML);
         ul.nextSibling.setAttribute('aria-hidden', 'true');
     })"
-        class="group text-slate-300 w-full my-20 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_16 xl:w-208px,_black_calc(100%-16 xl:w-208px),transparent_100%)]"
+        class="select-none group text-slate-300 w-full my-20 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_16 xl:w-208px,_black_calc(100%-16 xl:w-208px),transparent_100%)]"
       >
         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-6 [&_img]:max-w-none animate-infinite-scroll group-hover:[animation-play-state:paused]">
           <li className="flex flex-col gap-2">

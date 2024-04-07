@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import Image from "next/image";
 import { useEffect } from "react";
@@ -59,7 +60,7 @@ export default function Home() {
       <img
         src="/sphere.png"
         alt="locker"
-        className="hidden lg:block lg:absolute lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%]"
+        className="select-none hidden lg:block lg:absolute lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%] lg:z-40"
       />
       <WhatWeDo />
       <Slider />
