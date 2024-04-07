@@ -6,7 +6,7 @@ const FinalBlock = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center text-center my-6">
       <div className="xl:flex xl:justify-between xl:mx-32 xl:items-center xl:text-left">
-        <div className="flex flex-col">
+        <div className="flex flex-col font-manrope">
           <span className="text-3xl xl:text-6xl font-light">Make No Compromises</span>
           <span className="text-3xl xl:text-6xl font-bold mt-2 xl:mt-6">Productize Your Ideas</span>
         </div>

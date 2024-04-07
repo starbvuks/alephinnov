@@ -20,7 +20,7 @@ export default function Home() {
       <div class="z-10 fixed rounded-full animate-blob mix-blend-hard-light filter blur-[100px] opacity-20 -bottom-32 lg:-bottom-48 left-0 w-[50%] h-72 bg-teal-400 overflow-hidden" />
       <Navbar />
       <div className="flex flex-col text-center text-6xl mt-6 lg:text-left lg:text-8xl xl:text-9xl lg:mt-24 lg:ml-16 font-bold">
-        <div className="grid grid-rows-2 mt-10">
+        <div className="grid grid-rows-2 mt-7">
           <span className="z-20">
             Build <span className="font-ptSerif italic text-gray-400">&</span>
           </span>

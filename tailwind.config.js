@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         ptSerif: ["PT Serif", "sans-serif"],
         apercu: ["var(--apercu)", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
       keyframes: {
         enter: {
