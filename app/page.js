@@ -29,7 +29,7 @@ export default function Home() {
     gsap.from(".main-content", {
       duration: 1.2,
       opacity: 0,
-      scale: 0.95,
+      scale: 0.84,
       y: 50, // Adjust the vertical position as needed
       ease: "power2.out",
       delay: 0.2, // Optional delay before starting the animation
@@ -52,7 +52,7 @@ return (
         <div class="z-10 fixed rounded-full animate-blob mix-blend-hard-light filter blur-[100px] opacity-20 -bottom-32 lg:-bottom-48 left-1/2 w-[50%] h-72 bg-lime-400 overflow-hidden" />
         <div class="z-10 fixed rounded-full animate-blob mix-blend-hard-light filter blur-[100px] opacity-20 -bottom-32 lg:-bottom-48 left-0 w-[50%] h-72 bg-teal-400 overflow-hidden" />
         <Navbar />
-        <div className="flex flex-col text-center text-6xl mt-6 lg:text-left lg:text-8xl xl:text-9xl lg:mt-24 lg:ml-16 font-bold">
+        <div className="main-content flex flex-col text-center text-6xl mt-6 lg:text-left lg:text-8xl xl:text-9xl lg:mt-24 lg:ml-16 font-bold">
           <div className="grid grid-rows-2 mt-7">
             <span className="z-20">
               Build <span className="font-ptSerif italic text-gray-400">&</span>
@@ -78,7 +78,7 @@ return (
         <img
           src="/sphere.png"
           alt="locker"
-          className="select-none hidden lg:block lg:absolute lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%] lg:z-40"
+          className="select-none main-content hidden lg:block lg:absolute lg:m-0 lg:bottom-0 lg:right-8 lg:left-auto lg:top-20 lg:w-[42%] lg:z-40"
         />
         <WhatWeDo />
         <Slider />
