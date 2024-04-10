@@ -54,7 +54,7 @@ const Preloader = () => {
           <img
             src="/alephinnov-logo.png"
             alt="logo"
-            className="w-5 mt-12 md:w-8 lg:mt-0 lg:w-[4em] object-cover"
+            className="w-5 md:w-8 lg:w-[4em] object-cover"
           />
           {/* <img
             src="/alephinnov-logo.png"
