@@ -44,23 +44,23 @@ const Preloader = () => {
     });
  }, [progress]);
 
+ // my-[60%] md:mt-[40%] lg:mt-[30%] xl:mt-[25%]
  return (
     <div
-      className="fixed w-[100vw] h-[100vh] my-[60%] md:mt-[40%] lg:mt-[30%] xl:mt-[25%] inset-0 flex flex-col items-center justify-center bg-black z-50"
-      style={{ display: "block", opacity: 1 }}
+      className="w-[100vw] h-[100vh] inset-0 flex items-center justify-center align-middle bg-black z-50"
     >
       <div className="flex flex-col justify-center gap-4 p-4 rounded-lg shadow-lg w-[50%] self-center mx-auto">
-        <div className="flex justify-between">
+        <div className="flex justify-center">
           <img
             src="/alephinnov-logo.png"
             alt="logo"
-            className="w-5 mt-12 lg:mt-0 lg:w-[2.1em] object-cover"
+            className="w-5 mt-12 md:w-8 lg:mt-0 lg:w-[4em] object-cover"
           />
-          <img
+          {/* <img
             src="/alephinnov-logo.png"
             alt="logo"
             className="w-5 mt-12 lg:mt-0 lg:w-[2.1em] object-cover"
-          />
+          /> */}
         </div>
         <div className="h-2 bg-white rounded-lg">
           <div
