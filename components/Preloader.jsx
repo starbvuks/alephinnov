@@ -18,7 +18,7 @@ const Preloader = () => {
         }
         return prevProgress + progressIncrement;
       });
-    }, 50); // Update progress every 50ms
+    }, 25); // Update progress every 50ms
 
     return () => clearInterval(timer);
  }, []);

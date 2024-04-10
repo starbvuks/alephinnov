@@ -21,7 +21,7 @@ export default function Home() {
     // Simulate a loading process
     setTimeout(() => {
       setIsLoading(false);
-    }, 1400); // Adjust the timeout as needed
+    }, 1200); // Adjust the timeout as needed
  }, []);
 
  useEffect(() => {
@@ -45,7 +45,7 @@ return (
       </div>
     ) : null}
     <main
-      className={`flex bg-black text-white flex-col lg:justify-between overflow-hidden main-content ${
+      className={`flex bg-black text-white flex-col lg:justify-between overflow-hidden ${
         isLoading ? "hidden" : ""
       }`}
     >
