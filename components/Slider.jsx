@@ -32,6 +32,10 @@ const Slider = () => {
             <span className="opacity-30">mongoDB</span>
           </li>
           <li className="flex flex-col gap-2">
+            <img src="./stack/postgres.svg" className="w-16 xl:w-20" />
+            <span className="opacity-30">postgres</span>
+          </li>
+          <li className="flex flex-col gap-2">
             <img
               src="https://seeklogo.com/images/S/strapi-logo-3551DD3743-seeklogo.com.png"
               className="w-16 xl:w-20"
@@ -78,6 +82,10 @@ const Slider = () => {
           <li className="flex flex-col gap-2">
             <img src="./stack/mongo.svg" className="w-16 xl:w-20" />
             <span className="opacity-30">mongoDB</span>
+          </li>
+          <li className="flex flex-col gap-2">
+            <img src="./stack/postgres.svg" className="w-16 xl:w-20" />
+            <span className="opacity-30">postgres</span>
           </li>
           <li className="flex flex-col gap-2">
             <img
